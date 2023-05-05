@@ -1,0 +1,15 @@
+footer{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #3D5467;
+    text-align: center;
+}
+.social-img {
+    height: 25px;
+    cursor: pointer;
+    margin: 3px;
+  }
+.social-img:hover {
+    transform: scale(1.15);
+  }

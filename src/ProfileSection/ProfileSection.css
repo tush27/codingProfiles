@@ -1,0 +1,45 @@
+.profile-section-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    border: 2px solid rgb(188, 184, 184);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.card-holder{
+    /* background-color: yellow; */
+    width: 50%;
+}
+.side-image{
+    /* background-color: red; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.code-img{
+    width: 60%;
+    height: fit-content;
+    border-radius: 100px 0px 100px 0px;
+    
+}
+
+@media (max-width: 750px){
+    .profile-section-container{
+        flex-direction: column-reverse;
+        border: none;
+    }
+    .card-holder{
+        width: 100%;
+    }
+    .code-img{
+        border-radius: 8px;
+        width: 80%;
+    }
+    .side-image{
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+}

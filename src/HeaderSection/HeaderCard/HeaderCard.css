@@ -1,0 +1,30 @@
+.Header-card{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    font-size: 25px;
+    padding: 8px 25px;
+}
+.profile-pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+@media (max-width: 750px){
+    .Header-card{
+        max-width: 100%;
+        margin: 10px;
+        font-size: 20px;
+        padding: 15px 30px;
+    }
+    .profile-pic{
+        height: 50px;
+        width: 50px;
+    }
+}
